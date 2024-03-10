@@ -1,0 +1,56 @@
+/* h1{
+    text-align: center
+}
+
+h3{
+    text-align: center
+} */
+
+#scrambled-word{
+    /* text-align: center; */
+    background-color: white;
+    font-size: 16px;
+    border: 1px solid #000;
+    width: 200px;
+    height: 24px;
+    /* position: fixed; */
+    /* border: none; */
+    /* top: 125px;
+    left: calc(50% - 100px) */
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.guess {
+    margin-top: 20px;
+}
+
+.prompt {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px 
+}
+
+#submit--trigger{
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+}
+
+#message{
+    font-size: 16px;
+    resize: none;
+}
