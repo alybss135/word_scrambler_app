@@ -1,0 +1,96 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#five-button{
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    left: 45%;
+}
+
+#six-button{
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+
+#seven-button{
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 32%;
+    left: 45%;
+}
+
+#eight-button{
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 39%;
+    left: 45%;
+}
+
+#nine-button{
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    position: absolute;
+    top: 46%;
+    left: 45%;
+}

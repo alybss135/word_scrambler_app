@@ -1,0 +1,104 @@
+#scrambled-word{
+    background-color: white;
+    font-size: 16px;
+    border: 1px solid #000;
+    width: 200px;
+    height: 24px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.guess {
+    margin-top: 20px;
+}
+
+.prompt {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px 
+}
+
+#message{
+    background-color: white;
+    font-size: 16px;
+    border: 1px solid #000;
+    min-width: 225px;
+    min-height: 20px;
+    flex-shrink: 0;
+}
+
+.button-container {
+    display: flex;
+}
+
+#submit-trigger{
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    font-family: 'Trebuchet MS';
+    margin-right: 20px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#reset-trigger{
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    font-family: 'Trebuchet MS';
+    flex-shrink: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#home-button{
+    width: 30px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    font-family: 'Trebuchet MS';
+    margin-bottom: 10px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 3%;
+    left: 2%;
+}
+
+#mode-button{
+    width: 80px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    font-family: 'Trebuchet MS';
+    text-decoration: none;
+    position: absolute;
+    left: 2%;
+    bottom: 12%;
+}

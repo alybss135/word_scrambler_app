@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Scrambler Game Page</title>
+    <link rel="stylesheet" href="sixwordgamestyle.css">
+</head>
+<body>
+    <main class="game">
+        <h2 style="color: blue;">Word Scrambler Game Page</h2>
+        <h3 style="color: black;">Enter the word that you think the scrambled word is. Good Luck!</h3>
+        
+        <div id="scrambled-word" name="scrambled-word" rows="1" columns="6" resize="none"></div>
+        
+        <form>
+            <div class="guess">
+                <input type="text" id="word-label" length="6" placeholder="Enter a guess">
+            </div>
+        </form>
+        
+        <div class="prompt">
+            <div id="message" name="message-label" rows="1" columns="100"></div>
+            <div class="button-container">
+                <button id="submit-trigger" onclick="checkWord()">Submit</button>
+                <button id="reset-trigger" onclick="resetGame()">Reset Game</buttton>
+            </div>
+        </div>
+        <a href="home.html" button id="home-button" >Home</a>
+        <a href="modes.html" button id="mode-button">Change Difficulty</a>
+    </main>
+    <script src="sixwordgame.js"></script>
+</body>
+</html>
